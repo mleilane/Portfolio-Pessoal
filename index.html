@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfólio de Maria Leilane, desenvlvedora em transição de carreira tecnologia, desenvolvedora web, desenvolvedora Backend, desenvolvedora frontend"
+      content="Portfólio de Maria Leilane: Analista de Sistemas e Desenvolvedora Full Stack em transição de carreira. Conheça meus projetos em desenvolvimento web, frontend e backend"
     />
     <meta
       name="keywords"
-      content="portfólio, Maria Leilane, desenvolvedora fullstack, web development, frontend, backend"
+      content="portfólio, Maria Leilane, desenvolvedora fullstack, web development, frontend, backend, Analista de sistemas"
     />
     <meta name="author" content="Maria Leilane" />
-    <title>Portfólio | Leilane</title>
+    <title>
+      Portfólio de Maria Leilane | Analista de Sistemas & Desenvolvedora Full
+      Stack
+    </title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- NavBar-->
     <header>
-      <nav arial-label="Menu principal">
+      <nav aria-label="Menu principal">
         <ul class="navbar">
           <li><a href="#home"> Início</a></li>
           <li><a href="#about"> Sobre</a></li>
@@ -29,48 +32,97 @@
       </nav>
     </header>
 
-    <!--Tela Inicial-->
     <main>
-      <section id="home" class="hero" aria-labelledby="home-heading">
-        <h1 id="home-heading">
-          Olé mundo! Eu sou a <span>Maria Leilane</span>
-        </h1>
-        <h2>Sou: <span> Desenvolvedora FullStack...</span></h2>
+      <section id="home" class="tela-inicial">
+        <div class="home-avatar-links">
+          <!--Imagem avatar-->
+          <figure>
+            <img src="assets/Img-avatar.png" alt="Avatar" class="hero-image" />
+            <figcaption>Maria Leilane, desenvolvedora Full Stack</figcaption>
+          </figure>
 
-        <!--Imagem avatar-->
-        <img src="assets/Img-avatar.png" alt="Avatar" class="hero-image" />
+          <!-- Ícones de redes sociais -->
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/codinggirl__"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <img src="assets/instagram.png" alt="Ícone do Instagram" />
+            </a>
+            <a
+              href="https://github.com/mleilane"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <img src="assets/github.png" alt="Ícone do GitHub" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/maria-leilane"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <img src="assets/linkedin.png" alt="Ícone do LinkedIn" />
+            </a>
+          </div>
 
-        <!-- Ícones de redes sociais -->
-        <!-- target="_blank" 
-          Para evitar essa vulnerabilidade, adicionamos rel="noopener noreferrer":
-            - noopener: Impede que a página de destino manipule a página original.
-            - noreferrer: Remove informações sobre a origem (referrer), protegendo a privacidade do usuário.-->
-        <div class="social-links">
+          <!-- target="_blank" 
+  Para evitar essa vulnerabilidade, adicionamos rel="noopener noreferrer":
+  - noopener: Impede que a página de destino manipule a página original.
+  - noreferrer: Remove informações sobre a origem (referrer), protegendo a privacidade do usuário.-->
+        </div>
+
+        <div class="home-texto" aria-labelledby="home-heading">
+          <h1 id="home-heading">Olá mundo! Eu sou a <em>Maria Leilane</em></h1>
+          <h2>
+            Sou: <strong> Analista de Sistemas & Full Stack Developer</strong>
+          </h2>
+        </div>
+      </section>
+
+      <section id="sobre" class="tela-sobre">
+        <h2>Minha Jornada na Tecnologia</h2>
+        <div class="texto-sobre">
+          <p>
+            Minha história com a tecnologia começou por curiosidade, virou
+            paixão — e hoje é profissão. <br />
+            Depois de anos atuando na área de planejamento, onde desenvolvi
+            visão estratégica e aprendi a resolver problemas com lógica e
+            empatia, decidi seguir o caminho que sempre me fascinou: a
+            tecnologia. <br />Atualmente, sou analista de sistemas, unindo
+            raciocínio analítico com criatividade para construir soluções que
+            realmente façam sentido para quem usa. Estou sempre em busca de
+            aprendizados e desafios que me tirem da zona de conforto e
+            contribuam para meu crescimento profissional e pessoal.
+          </p>
           <a
-            href="https://www.instagram.com/codinggirl__"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram"
-          >
-            <img src="assets/instagram.png" alt="Ícone do Instagram" />
-          </a>
-          <a
-            href="https://github.com/mleilane"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-          >
-            <img src="assets/github.png" alt="Ícone do GitHub" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/maria-leilane"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-          >
-            <img src="assets/linkedin.png" alt="Ícone do LinkedIn" />
+            href="caminho/para/o/seu/arquivo.extensao"
+            download="nome_do_arquivo_para_o_usuario.extensao"
+            >Dowload Curriculo
           </a>
         </div>
+
+        <div class="img-sobre">
+          <figure>
+            <img src="assets/Img-Sobre.png" alt="Maria Leilane – desenvolvedora e estudante de tecnologia" />
+            <figcaption>Foto de Maria Leilane, analista de sistemas e desenvolvedora</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="skills" classe="tela-skills">
+        <h2>Skills</h2>
+
+        <div class="img-skills">
+          <figure>
+            <img src="assets/skills.png" alt="Ícones das minhas habilidades técnicas" />
+            <figcaption>Ícones representando as minhas principais habilidades técnicas</figcaption>
+          </figure>
+        </div>
+        
       </section>
     </main>
   </body>
